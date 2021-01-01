@@ -4,9 +4,7 @@
     margin: 0px;
     color: rgb(255, 255,0);
    
-    animation-name: heading_animation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+  
 }
 .note{
     font-size: 15px;
