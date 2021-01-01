@@ -1,0 +1,49 @@
+.heading{
+    font-size: 25px !important;
+    width: 100%;
+    margin: 0px;
+    color: rgb(255, 255,0);
+   
+    animation-name: heading_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.note{
+    font-size: 15px;
+    color: rgb(255,255, 0);
+    width: 100%;
+    animation-name: heading_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.copy_right_footer{
+    position: fixed;
+    line-height: 3;
+    text-align: right;
+    background-color: rgb(255,255,0);
+    color: rgb(223, 71, 89);
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+canvas{
+    border-top: 5px solid rgb(223, 71, 89);
+    border-bottom: 5px solid rgb(255, 255,0);
+    border-left: 5px solid rgb(223, 71, 89);
+    border-right: 5px solid rgb(255,255,0);
+    animation-name: canvas_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+@keyframes canvas_animation{
+    from{box-shadow: 15px 15px 3px rgb(223, 71, 89);}
+    to{box-shadow: 15px 15px 3px rgb(255, 255, 0);}
+}
+@keyframes heading_animation{
+    from{box-shadow: 15px 15px 3px rgb(255, 255, 0);}
+    to{box-shadow: 15px 15px 3px rgb(223, 71, 89);}
+}
+body{
+    font-family: 'Langar', cursive;
+}
